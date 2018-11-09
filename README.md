@@ -26,3 +26,5 @@ Michal Bochnak
 Jakub Glebocki
 
 UIC Fall 2017
+
+For more details see Networked_Chat.pdf
