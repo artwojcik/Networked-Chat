@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CS 342 Project 05 - Networked Chat:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e67326bf-9637-4a1f-8efb-d567d4ffa804" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CS_342_Project_05___Networked_Chat$Client.coverage" NAME="Client Coverage Results" MODIFIED="1512593091060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4816785">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ViewController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientController/ViewController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#801#876#0" expanded="false" />
+                    <element signature="method#showNamePrompt#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#showServerInfoPrompt#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#showMainChatWindow#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#hideAllWindows#0;class#ViewController#0" expanded="false" />
+                    <element signature="n#!!doc;n#NameViewOkButtonListener#0;n#ViewController#0" expanded="false" />
+                    <element signature="method#showNameTakenDialog#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#actionPerformed#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="e#5044#5107#0" expanded="false" />
+                    <element signature="method#nameAlreadyTaken#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#isPrime#0;class#ServerInfoViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="e#6053#6054#0" expanded="true" />
+                    <element signature="e#6103#6104#0" expanded="true" />
+                    <element signature="class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#showMsgToShortDialog#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#showSelectRecipientDialog#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#encodeMsg#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#stringPadding#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#calculateFourChars#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#convertToAscii#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#power#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="e#16042#16070#0" expanded="false" />
+                    <element signature="e#16219#16220#0" expanded="true" />
+                    <element signature="e#16257#16258#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainClientController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientController/MainClientController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="504">
+                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#1195#1196#0" expanded="true" />
+                    <element signature="e#1235#1236#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/Client.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServerController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/server_src/ServerController/ServerController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="567">
+                  <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <marker date="1512686111185" expanded="true" signature="3985:4160" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SendMessagePanel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/SendMessagePanel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#1128#1129#0" expanded="true" />
+                    <element signature="e#1159#1160#0" expanded="true" />
+                    <element signature="e#1198#1199#0" expanded="true" />
+                    <element signature="e#1246#1247#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServerInfoView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/ServerInfoView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1197">
+                  <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#1193#1194#0" expanded="true" />
+                    <element signature="e#1224#1225#0" expanded="true" />
+                    <element signature="method#setupFrame#0;class#ServerInfoView#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UsersConnectedView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/UsersConnectedView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="79" />
+                  <folding>
+                    <element signature="e#1328#1329#0" expanded="true" />
+                    <element signature="e#1359#1360#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClientChatView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/ClientChatView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2415">
+                  <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1481#1482#0" expanded="true" />
+                    <element signature="e#1512#1513#0" expanded="true" />
+                    <element signature="e#1544#1545#0" expanded="true" />
+                    <element signature="e#1572#1573#0" expanded="true" />
+                    <element signature="e#1608#1609#0" expanded="true" />
+                    <element signature="e#1640#1641#0" expanded="true" />
+                    <element signature="e#1774#1775#0" expanded="true" />
+                    <element signature="e#1804#1805#0" expanded="true" />
+                    <element signature="e#4349#4350#0" expanded="true" />
+                    <element signature="e#4390#4391#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NameView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/NameView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1239">
+                  <caret line="67" column="32" lean-forward="false" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#1079#1080#0" expanded="true" />
+                    <element signature="e#1110#1111#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MsgsPanel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/MsgsPanel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+                  <folding>
+                    <element signature="e#1141#1142#0" expanded="true" />
+                    <element signature="e#1172#1173#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ViewController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientController/ViewController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="84">
+                  <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#801#876#0" expanded="false" />
+                    <element signature="method#showNamePrompt#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#showServerInfoPrompt#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#showMainChatWindow#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#hideAllWindows#0;class#ViewController#0" expanded="false" />
+                    <element signature="n#!!doc;n#NameViewOkButtonListener#0;n#ViewController#0" expanded="false" />
+                    <element signature="method#showNameTakenDialog#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#actionPerformed#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="e#5044#5107#0" expanded="false" />
+                    <element signature="method#nameAlreadyTaken#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#isPrime#0;class#ServerInfoViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="e#6053#6054#0" expanded="true" />
+                    <element signature="e#6103#6104#0" expanded="true" />
+                    <element signature="class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#showMsgToShortDialog#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#showSelectRecipientDialog#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#encodeMsg#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#stringPadding#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#calculateFourChars#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#convertToAscii#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="method#power#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+                    <element signature="e#16042#16070#0" expanded="false" />
+                    <element signature="e#16219#16220#0" expanded="true" />
+                    <element signature="e#16257#16258#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServerController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server_src/ServerController/ServerController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3444">
+                  <caret line="166" column="26" lean-forward="false" selection-start-line="166" selection-start-column="26" selection-end-line="166" selection-end-column="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <marker date="1512686111185" expanded="true" signature="3985:4160" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Pair.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/Pair.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InitialClientInfoMsgModel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/InitialClientInfoMsgModel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServerInfoView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server_src/ServerView/ServerInfoView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="13" column="83" lean-forward="false" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
+                  <folding>
+                    <element signature="e#1272#1273#0" expanded="true" />
+                    <element signature="e#1303#1304#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ViewController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server_src/ServerController/ViewController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="189">
+                  <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClientController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientController/ClientController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2352">
+                  <caret line="139" column="40" lean-forward="false" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MenuBarView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server_src/ServerView/MenuBarView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="525">
+                  <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#895#896#0" expanded="true" />
+                    <element signature="e#926#927#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServerModel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/ServerModel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1806">
+                  <caret line="120" column="33" lean-forward="false" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1163#1164#0" expanded="true" />
+                    <element signature="e#1194#1195#0" expanded="true" />
+                    <element signature="method#getClientsList#0;class#ServerModel#0" expanded="false" />
+                    <element signature="method#getClientsNamesList#0;class#ServerModel#0" expanded="false" />
+                    <element signature="method#startTheServer#0;class#ServerModel#0" expanded="false" />
+                    <element signature="method#acceptClient#0;class#ServerModel#0" expanded="false" />
+                    <element signature="method#clientExist#0;class#ServerModel#0" expanded="false" />
+                    <element signature="method#removeClient#0;class#ServerModel#0" expanded="false" />
+                    <marker date="1512633455895" expanded="false" signature="1752:1773" ph="&lt;~&gt;" />
+                    <marker date="1512633455895" expanded="false" signature="2168:2176" ph="&lt;~&gt;" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClientModel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/ClientModel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="798">
+                  <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1348#1349#0" expanded="true" />
+                    <element signature="e#1379#1380#0" expanded="true" />
+                    <element signature="method#connectToServer#0;class#ClientModel#0" expanded="false" />
+                    <element signature="method#setupInOutStream#0;class#ClientModel#0" expanded="false" />
+                    <element signature="method#setupDataInStream#0;class#ClientModel#0" expanded="false" />
+                    <element signature="method#setupDataOutStream#0;class#ClientModel#0" expanded="false" />
+                    <element signature="method#sendData#0;class#ClientModel#0" expanded="false" />
+                    <element signature="method#receiveData#0;class#ClientModel#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Stream</find>
+      <find>waitForClient</find>
+      <find>params</find>
+      <find>clea</find>
+      <find>dataIn</find>
+      <find>add</find>
+      <find>updatemsg</find>
+      <find>sendUpdateToClient</find>
+      <find>color</find>
+      <find>white</find>
+      <find>getmen</find>
+      <find>send</find>
+      <find>convertToAscii</find>
+      <find>isprim</find>
+      <find>update</find>
+      <find>initial</find>
+      <find>pro</find>
+      <find>16</find>
+      <find>encodeMsg</find>
+      <find>gethost</find>
+      <find>primes</find>
+      <find>summ</find>
+      <find>findcli</find>
+      <find>find</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/client_src/Model/RSAModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/Model/NetworkDataModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/View/ServerInfoView.java" />
+        <option value="$PROJECT_DIR$/src/client_src/View/MenuBarView.java" />
+        <option value="$PROJECT_DIR$/src/client_src/View/MenuBarV.java" />
+        <option value="$PROJECT_DIR$/src/client_src/View/GuestsView.java" />
+        <option value="$PROJECT_DIR$/src/client_src/Model/MessageM.java" />
+        <option value="$PROJECT_DIR$/src/client_src/Model/ClientModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/Model/MessageModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/Model/ClientSocketModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/Controller/MainAppController.java" />
+        <option value="$PROJECT_DIR$/src/server_src/Model/ServerModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/Controller/ServerController.java" />
+        <option value="$PROJECT_DIR$/src/server_src/View/ClientsConnectedView.java" />
+        <option value="$PROJECT_DIR$/src/server_src/Controller/ViewController.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientView/MenuBarV.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientModel/InitialClientInfoMsgModel.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientModel/ConversationMsgModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerModel/NameAvailableCheckMsgModel.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientModel/KeyPair.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientModel/Pair.java" />
+        <option value="$PROJECT_DIR$/src/server_src/Server.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerController/MainServerController.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerModel/ClientPublicProfile.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerModel/ClientSocketModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerModel/InitialClientInfoMsgModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerModel/UpdateMsgModel.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientModel/KeysModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerModel/ConversationMsgModel.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientModel/RSAModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerModel/KeyPairModel.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientView/MenuBarView.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientView/MsgsPanel.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientView/NameView.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientView/SendMessagePanel.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientView/ServerInfoView.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientView/UsersConnectedView.java" />
+        <option value="$PROJECT_DIR$/src/client_src/Client.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientController/MainClientController.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientModel/ClientModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerModel/ServerModel.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerView/ClientsConnectedView.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientView/ClientChatView.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerView/MenuBarView.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerView/ServerInfoView.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerController/ViewController.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientController/ViewController.java" />
+        <option value="$PROJECT_DIR$/src/client_src/ClientController/ClientController.java" />
+        <option value="$PROJECT_DIR$/src/server_src/ServerController/ServerController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client_src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client_src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client_src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client_src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientView" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server_src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server_src" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server_src" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS 342 Project 05 - Networked Chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS 342 Project 05 - Networked Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server_src" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerView" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS 342 Project 04 - Networked Battleship" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ClientView" />
+      <recent name="ClientModel" />
+      <recent name="Model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Michal\IdeaProjects\CS 342 Project 05 - Networked Chat\src\server_src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CS 342 Project 05 - Networked Chat" />
+      <envs />
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CS 342 Project 05 - Networked Chat" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e67326bf-9637-4a1f-8efb-d567d4ffa804" name="Default" comment="" />
+      <created>1511300098654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511300098654</updated>
+      <workItem from="1511300105544" duration="1169000" />
+      <workItem from="1511301659045" duration="26000" />
+      <workItem from="1511305707107" duration="5541000" />
+      <workItem from="1511316205361" duration="14929000" />
+      <workItem from="1511361823910" duration="17818000" />
+      <workItem from="1511415400951" duration="14711000" />
+      <workItem from="1511470977620" duration="2142000" />
+      <workItem from="1511473766326" duration="36000" />
+      <workItem from="1511475642066" duration="1120000" />
+      <workItem from="1511542156827" duration="28000" />
+      <workItem from="1511549985830" duration="180000" />
+      <workItem from="1511550214672" duration="38835000" />
+      <workItem from="1511626099760" duration="42816000" />
+      <workItem from="1511672739200" duration="1073000" />
+      <workItem from="1511727221422" duration="33000" />
+      <workItem from="1511734397823" duration="4686000" />
+      <workItem from="1511741832459" duration="233000" />
+      <workItem from="1511742176642" duration="3177000" />
+      <workItem from="1511911906159" duration="634000" />
+      <workItem from="1512086423945" duration="21000" />
+      <workItem from="1512578734776" duration="18437000" />
+      <workItem from="1512618570468" duration="20688000" />
+      <workItem from="1512704362018" duration="52000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1511306019351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511306019351</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1511306293618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511306293618</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1511314855330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511314855330</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1511315247051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511315247051</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1511315489068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1511315489068</updated>
+    </task>
+    <task id="LOCAL-00006" summary="basic connection established">
+      <created>1511332968290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511332968290</updated>
+    </task>
+    <task id="LOCAL-00007" summary="multiple clients connection established">
+      <created>1511373111428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511373111443</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit">
+      <created>1511563974637</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1511563974637</updated>
+    </task>
+    <task id="LOCAL-00009" summary="User names update">
+      <created>1511565426062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1511565426062</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Clients connected list update on client and server side">
+      <created>1511573822986</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1511573822986</updated>
+    </task>
+    <task id="LOCAL-00011" summary="unique user update">
+      <created>1511591869608</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1511591869609</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Sending messages update">
+      <created>1511643233616</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1511643233616</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Awesome GUI update">
+      <created>1511671097602</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1511671097602</updated>
+    </task>
+    <task id="LOCAL-00014" summary="RSA added">
+      <created>1512596524886</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1512596524886</updated>
+    </task>
+    <task id="LOCAL-00015" summary="AL added, rsa corrected">
+      <created>1512623395163</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1512623395163</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit">
+      <created>1512623974423</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1512623974423</updated>
+    </task>
+    <task id="LOCAL-00017" summary="small update">
+      <created>1512624305071</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1512624305071</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Singleton implemented.">
+      <created>1512633423887</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1512633423887</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Synchronized added.">
+      <created>1512687207652</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1512687207652</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Singleton implemented.">
+      <created>1512704672657</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1512704672657</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Singleton implemented.">
+      <created>1512704834930</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1512704834930</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="188823000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1058" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858273" sideWeight="0.49847627" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25055188" sideWeight="0.5015002" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26490065" sideWeight="0.53201705" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09050772" sideWeight="0.4941302" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858273" sideWeight="0.49102965" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14461046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21633554" sideWeight="0.46798292" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29249448" sideWeight="0.35859126" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943013" sideWeight="0.49492815" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic connection established" />
+    <MESSAGE value="multiple clients connection established" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="User names update" />
+    <MESSAGE value="Clients connected list update on client and server side" />
+    <MESSAGE value="unique user update" />
+    <MESSAGE value="Sending messages update" />
+    <MESSAGE value="Awesome GUI update" />
+    <MESSAGE value="RSA added" />
+    <MESSAGE value="AL added, rsa corrected" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="small update" />
+    <MESSAGE value="Synchronized added." />
+    <MESSAGE value="Singleton implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton implemented." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="36" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/Controller.MainAppController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Controller.MainAppController</OriginalElement>
+          <nodes>
+            <node x="" y="">Controller.ServerController</node>
+            <node x="" y="">Controller.ViewController</node>
+            <node x="" y="">Controller.MainAppController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="2.2000000000000006" x="125.0" y="21.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/View/MenuBarView.java" />
+    <entry file="file://$PROJECT_DIR$/src/client_src/View/GuestsView.java" />
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/MenuBarV.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/MessageM.java" />
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/InitialClientInfoMsgModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/ConversationMsgModel.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/NetworkDataModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/NameAvailableCheckMsgModel.java" />
+    <entry file="file://$PROJECT_DIR$/../Networked Chat copyt as of Nov 25 - 1 am/src/server_src/ServerController/ServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2435">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/24093588_1509842855773128_1514058947_o.jpg" />
+    <entry file="uml://JAVA/ServerController.MainServerController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ServerController.MainServerController</OriginalElement>
+          <nodes>
+            <node x="0.0" y="74.0">ClientModel.ClientModel</node>
+            <node x="0.0" y="0.0">ServerController.MainServerController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-12.0" y="52.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Client">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Client</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">Client</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-143.0" y="-360.0" />
+          <SelectedNodes>
+            <node>Client</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ClientController.ViewController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ClientController.ViewController</OriginalElement>
+          <nodes>
+            <node x="" y="">ClientController.ViewController.NameViewOkButtonListener</node>
+            <node x="" y="">ClientController.ViewController.SendMsgButtonListener</node>
+            <node x="" y="">ClientController.ViewController</node>
+            <node x="" y="">ClientController.MainClientController</node>
+            <node x="" y="">ClientController.ViewController.ServerInfoViewOkButtonListener</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="208.0" y="35.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ClientController.MainClientController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ClientController.MainClientController</OriginalElement>
+          <nodes>
+            <node x="" y="">ClientController.MainClientController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="320.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/client_src;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/client_src/ClientModel;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/client_src/ClientView;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src/ServerController;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src/META-INF;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src/ServerModel;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src/ServerView;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/client_src/ClientController;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/client_src;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/client_src/ClientModel;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/client_src/ClientView;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src/ServerController;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src/META-INF;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src/ServerModel;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/server_src/ServerView;C:/Users/Michal/IdeaProjects/CS 342 Project 05 - Networked Chat/src/client_src/ClientController;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="318.0" y="535.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ClientController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ClientController</OriginalElement>
+          <nodes>
+            <node x="" y="">ClientController.ViewController.NameViewOkButtonListener</node>
+            <node x="" y="">ClientController.ViewController.SendMsgButtonListener</node>
+            <node x="" y="">ClientController.ViewController</node>
+            <node x="" y="">ClientController.ClientController.waitForServerData</node>
+            <node x="" y="">ClientController.MainClientController</node>
+            <node x="" y="">ClientController.ViewController.ServerInfoViewOkButtonListener</node>
+            <node x="" y="">ClientController.ClientController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-188.0" y="509.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Server">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Server</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">Server</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-969.0" y="-360.0" />
+          <SelectedNodes>
+            <node>Server</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="1486.4512198706645" y="278.0">ServerModel.UpdateMsgModel</node>
+            <node x="513.6875" y="437.0">ClientController.MainClientController</node>
+            <node x="344.0" y="0.0">ClientView.MsgsPanel</node>
+            <node x="1082.3678865373313" y="0.0">ClientModel.Pair</node>
+            <node x="327.0" y="511.0">ClientModel.KeysModel</node>
+            <node x="210.0" y="149.0">ClientView.NameView</node>
+            <node x="854.4664976484423" y="149.0">ClientModel.ClientModel</node>
+            <node x="1308.5" y="437.0">ServerController.ServerController</node>
+            <node x="1399.87819664903" y="149.0">ServerModel.ClientPublicProfile</node>
+            <node x="644.2368386243387" y="278.0">ServerController.MainServerController</node>
+            <node x="0.0" y="511.0">ClientView.MenuBarView</node>
+            <node x="1208.87819664903" y="149.0">ServerModel.ConversationMsgModel</node>
+            <node x="1005.8781966490301" y="149.0">ServerModel.InitialClientInfoMsgModel</node>
+            <node x="660.2368386243387" y="149.0">ServerController.ViewController</node>
+            <node x="65.0" y="149.0">ClientView.ServerInfoView</node>
+            <node x="475.0" y="511.0">ClientModel.RSAModel</node>
+            <node x="612.0" y="0.0">ServerView.MenuBarView</node>
+            <node x="332.0" y="149.0">ClientView.ClientChatView</node>
+            <node x="904.0914976484423" y="278.0">ClientController.ClientController</node>
+            <node x="0.0" y="0.0">ClientView.SendMessagePanel</node>
+            <node x="1354.4512198706645" y="278.0">ServerModel.ServerModel</node>
+            <node x="836.6810479129925" y="0.0">ServerView.ClientsConnectedView</node>
+            <node x="1593.55319664903" y="149.0">ServerModel.ClientSocketModel</node>
+            <node x="224.0" y="278.0">ClientController.ViewController</node>
+            <node x="167.0" y="0.0">ClientView.UsersConnectedView</node>
+            <node x="467.00000000000006" y="0.0">ServerView.ServerInfoView</node>
+            <node x="165.0" y="511.0">ServerModel.KeyPairModel</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ServerModel.ClientPublicProfile" target="ClientModel.Pair">
+              <point x="-35.5" y="-14.5" />
+              <point x="1435.37819664903" y="119.0" />
+              <point x="1125.9178865373312" y="119.0" />
+              <point x="10.050000000000011" y="14.5" />
+            </edge>
+            <edge source="ClientView.ClientChatView" target="ClientView.MsgsPanel">
+              <point x="-8.466666666666697" y="-14.5" />
+              <point x="387.0333333333333" y="69.0" />
+              <point x="361.16666666666663" y="69.0" />
+              <point x="-34.33333333333337" y="14.5" />
+            </edge>
+            <edge source="ServerController.ServerController" target="ServerModel.UpdateMsgModel">
+              <point x="27.291666666666686" y="-14.5" />
+              <point x="1401.2916666666667" y="387.0" />
+              <point x="1521.7012198706645" y="387.0" />
+              <point x="-35.25" y="14.5" />
+            </edge>
+            <edge source="ServerController.ViewController" target="ServerView.ClientsConnectedView">
+              <point x="41.66666666666666" y="-14.5" />
+              <point x="764.4035052910053" y="69.0" />
+              <point x="918.6810479129925" y="69.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ServerModel.ServerModel" target="ServerModel.ConversationMsgModel">
+              <point x="-28.0" y="-14.5" />
+              <point x="1382.4512198706645" y="198.0" />
+              <point x="1294.37819664903" y="198.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ServerController.ServerController" target="ServerModel.ServerModel">
+              <point x="16.375" y="-14.5" />
+              <point x="1390.375" y="377.0" />
+              <point x="1447.784553203998" y="377.0" />
+              <point x="37.33333333333337" y="14.5" />
+            </edge>
+            <edge source="ClientView.ClientChatView" target="ServerView.ServerInfoView">
+              <point x="16.93333333333328" y="-14.5" />
+              <point x="412.4333333333333" y="79.0" />
+              <point x="477.41666666666674" y="79.0" />
+              <point x="-52.083333333333314" y="14.5" />
+            </edge>
+            <edge source="ClientController.MainClientController" target="ClientController.ClientController">
+              <point x="39.0" y="-14.5" />
+              <point x="630.6875" y="397.0" />
+              <point x="969.0914976484423" y="397.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ClientController.ViewController" target="ClientView.NameView">
+              <point x="-17.85714285714289" y="-14.5" />
+              <point x="268.6428571428571" y="238.0" />
+              <point x="235.5" y="238.0" />
+              <point x="-25.5" y="14.5" />
+            </edge>
+            <edge source="ServerModel.ServerModel" target="ServerModel.ClientPublicProfile">
+              <point x="9.333333333333314" y="-14.5" />
+              <point x="1419.7845532039978" y="238.0" />
+              <point x="1470.87819664903" y="238.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ClientController.ViewController" target="ClientView.ServerInfoView">
+              <point x="-53.571428571428555" y="-14.5" />
+              <point x="232.92857142857144" y="258.0" />
+              <point x="96.25" y="258.0" />
+              <point x="-31.25" y="14.5" />
+            </edge>
+            <edge source="ServerController.ViewController" target="ServerView.ServerInfoView">
+              <point x="-27.77777777777777" y="-14.5" />
+              <point x="694.959060846561" y="79.0" />
+              <point x="581.5833333333334" y="79.0" />
+              <point x="52.083333333333314" y="14.5" />
+            </edge>
+            <edge source="ClientController.ViewController" target="ClientController.MainClientController">
+              <point x="50.0" y="14.5" />
+              <point x="336.5" y="377.0" />
+              <point x="583.8875" y="377.0" />
+              <point x="-7.7999999999999545" y="-14.5" />
+            </edge>
+            <edge source="ServerController.ServerController" target="ServerModel.ClientSocketModel">
+              <point x="60.04166666666674" y="-14.5" />
+              <point x="1434.0416666666667" y="417.0" />
+              <point x="1695.0948633156968" y="417.0" />
+              <point x="1695.0948633156968" y="258.0" />
+              <point x="1720.42819664903" y="258.0" />
+              <point x="54.375" y="14.5" />
+            </edge>
+            <edge source="ServerModel.ServerModel" target="ServerModel.InitialClientInfoMsgModel">
+              <point x="-46.666666666666686" y="-14.5" />
+              <point x="1363.7845532039978" y="208.0" />
+              <point x="1158.37819664903" y="208.0" />
+              <point x="61.0" y="14.5" />
+            </edge>
+            <edge source="ServerController.MainServerController" target="ServerController.ViewController">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ClientController.ClientController" target="ServerModel.ClientPublicProfile">
+              <point x="56.875" y="-14.5" />
+              <point x="1025.9664976484423" y="218.0" />
+              <point x="1414.0781966490301" y="218.0" />
+              <point x="-56.80000000000001" y="14.5" />
+            </edge>
+            <edge source="ClientView.ClientChatView" target="ClientView.UsersConnectedView">
+              <point x="-25.399999999999977" y="-14.5" />
+              <point x="370.1" y="89.0" />
+              <point x="245.5" y="89.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ClientController.ClientController" target="ServerModel.InitialClientInfoMsgModel">
+              <point x="24.375" y="-14.5" />
+              <point x="993.4664976484423" y="198.0" />
+              <point x="1036.37819664903" y="198.0" />
+              <point x="-61.0" y="14.5" />
+            </edge>
+            <edge source="ClientView.ClientChatView" target="ServerView.MenuBarView">
+              <point x="50.80000000000001" y="-14.5" />
+              <point x="446.3" y="119.0" />
+              <point x="642.0" y="119.0" />
+              <point x="-30.0" y="14.5" />
+            </edge>
+            <edge source="ServerController.ViewController" target="ServerController.MainServerController">
+              <point x="25.0" y="14.5" />
+              <point x="747.7368386243387" y="258.0" />
+              <point x="754.1368386243387" y="258.0" />
+              <point x="31.399999999999977" y="-14.5" />
+            </edge>
+            <edge source="ClientView.ClientChatView" target="ClientView.SendMessagePanel">
+              <point x="-59.26666666666665" y="-14.5" />
+              <point x="336.23333333333335" y="129.0" />
+              <point x="24.5" y="129.0" />
+              <point x="-49.0" y="14.5" />
+            </edge>
+            <edge source="ClientController.MainClientController" target="ClientController.ViewController">
+              <point x="-39.0" y="-14.5" />
+              <point x="552.6875" y="397.0" />
+              <point x="286.5" y="397.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ClientModel.ClientModel" target="ClientModel.Pair">
+              <point x="-27.75" y="-14.5" />
+              <point x="882.2164976484423" y="99.0" />
+              <point x="1092.4178865373312" y="99.0" />
+              <point x="-23.44999999999999" y="14.5" />
+            </edge>
+            <edge source="ClientController.ViewController" target="ClientView.ClientChatView">
+              <point x="35.714285714285666" y="-14.5" />
+              <point x="322.21428571428567" y="248.0" />
+              <point x="395.5" y="248.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ClientController.ClientController" target="ClientModel.Pair">
+              <point x="8.125" y="-14.5" />
+              <point x="977.2164976484423" y="258.0" />
+              <point x="975.9664976484423" y="258.0" />
+              <point x="975.9664976484423" y="119.0" />
+              <point x="1105.817886537331" y="119.0" />
+              <point x="-10.050000000000011" y="14.5" />
+            </edge>
+            <edge source="ClientController.ClientController" target="ClientController.MainClientController">
+              <point x="52.0" y="14.5" />
+              <point x="1021.0914976484423" y="417.0" />
+              <point x="661.8875" y="417.0" />
+              <point x="70.19999999999999" y="-14.5" />
+            </edge>
+            <edge source="ClientController.ClientController" target="ClientModel.ClientModel">
+              <point x="-40.625" y="-14.5" />
+              <point x="928.4664976484423" y="248.0" />
+              <point x="872.9664976484423" y="248.0" />
+              <point x="-37.0" y="14.5" />
+            </edge>
+            <edge source="ServerController.MainServerController" target="ServerController.ServerController">
+              <point x="0.0" y="14.5" />
+              <point x="722.7368386243387" y="347.0" />
+              <point x="1335.7916666666667" y="347.0" />
+              <point x="-38.20833333333326" y="-14.5" />
+            </edge>
+            <edge source="ServerModel.InitialClientInfoMsgModel" target="ClientModel.Pair">
+              <point x="-45.75" y="-14.5" />
+              <point x="1051.62819664903" y="129.0" />
+              <point x="1112.5178865373312" y="129.0" />
+              <point x="-3.3499999999999943" y="14.5" />
+            </edge>
+            <edge source="ServerController.ViewController" target="ServerView.MenuBarView">
+              <point x="0.0" y="-14.5" />
+              <point x="722.7368386243387" y="59.0" />
+              <point x="702.0" y="59.0" />
+              <point x="30.0" y="14.5" />
+            </edge>
+            <edge source="ServerModel.ClientSocketModel" target="ClientModel.Pair">
+              <point x="36.25" y="-14.5" />
+              <point x="1702.30319664903" y="89.0" />
+              <point x="1146.0178865373312" y="89.0" />
+              <point x="30.150000000000034" y="14.5" />
+            </edge>
+            <edge source="ServerController.ServerController" target="ServerController.MainServerController">
+              <point x="-49.12499999999994" y="-14.5" />
+              <point x="1324.875" y="357.0" />
+              <point x="691.3368386243387" y="357.0" />
+              <point x="-31.399999999999977" y="14.5" />
+            </edge>
+            <edge source="ServerModel.ServerModel" target="ServerModel.ClientSocketModel">
+              <point x="46.666666666666686" y="-14.5" />
+              <point x="1457.1178865373313" y="258.0" />
+              <point x="1647.92819664903" y="258.0" />
+              <point x="-18.125" y="14.5" />
+            </edge>
+            <edge source="ServerModel.UpdateMsgModel" target="ServerModel.ClientPublicProfile">
+              <point x="35.25" y="-14.5" />
+              <point x="1592.2012198706645" y="238.0" />
+              <point x="1527.67819664903" y="238.0" />
+              <point x="56.799999999999955" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="224.0" y="617.0" />
+          <SelectedNodes>
+            <node>ClientModel.ClientModel</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/UpdateMsgModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/RSAModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/KeysModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerController/MainServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/ClientPublicProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="method#ClientPublicProfile#0;class#ClientPublicProfile#0" expanded="false" />
+            <element signature="e#988#989#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/ClientSocketModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="method#ClientSocketModel#0;class#ClientSocketModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/ConversationMsgModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/KeyPairModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/MenuBarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1443#1444#0" expanded="false" />
+            <element signature="e#1503#1504#0" expanded="false" />
+            <element signature="e#1566#1567#0" expanded="false" />
+            <element signature="e#1627#1628#0" expanded="false" />
+            <element signature="e#1690#1691#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/SendMessagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/UsersConnectedView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="79" />
+          <folding>
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientController/MainClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerView/ClientsConnectedView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerView/MenuBarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Backup Copy/chat Dec 7 - 2am/CS 342 Project 05 - Networked Chat/src/server_src/ServerController/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2982">
+          <caret line="161" column="5" lean-forward="false" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/MsgsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+          <folding>
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/InitialClientInfoMsgModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerView/ServerInfoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="83" lean-forward="false" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
+          <folding>
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/ServerInfoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+          <folding>
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="method#setupFrame#0;class#ServerInfoView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerController/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerModel/ServerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1806">
+          <caret line="120" column="33" lean-forward="false" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="method#getClientsList#0;class#ServerModel#0" expanded="false" />
+            <element signature="method#getClientsNamesList#0;class#ServerModel#0" expanded="false" />
+            <element signature="method#startTheServer#0;class#ServerModel#0" expanded="false" />
+            <element signature="method#acceptClient#0;class#ServerModel#0" expanded="false" />
+            <element signature="method#clientExist#0;class#ServerModel#0" expanded="false" />
+            <element signature="method#removeClient#0;class#ServerModel#0" expanded="false" />
+            <marker date="1512633455895" expanded="false" signature="1752:1773" ph="&lt;~&gt;" />
+            <marker date="1512633455895" expanded="false" signature="2168:2176" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientController/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="139" column="40" lean-forward="false" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/ClientChatView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#4349#4350#0" expanded="true" />
+            <element signature="e#4390#4391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientController/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#801#876#0" expanded="false" />
+            <element signature="method#showNamePrompt#0;class#ViewController#0" expanded="false" />
+            <element signature="method#showServerInfoPrompt#0;class#ViewController#0" expanded="false" />
+            <element signature="method#showMainChatWindow#0;class#ViewController#0" expanded="false" />
+            <element signature="method#hideAllWindows#0;class#ViewController#0" expanded="false" />
+            <element signature="n#!!doc;n#NameViewOkButtonListener#0;n#ViewController#0" expanded="false" />
+            <element signature="method#showNameTakenDialog#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="e#5044#5107#0" expanded="false" />
+            <element signature="method#nameAlreadyTaken#0;class#NameViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#isPrime#0;class#ServerInfoViewOkButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="e#6053#6054#0" expanded="true" />
+            <element signature="e#6103#6104#0" expanded="true" />
+            <element signature="class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#showMsgToShortDialog#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#showSelectRecipientDialog#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#encodeMsg#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#stringPadding#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#calculateFourChars#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#convertToAscii#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="method#power#0;class#SendMsgButtonListener#0;class#ViewController#0" expanded="false" />
+            <element signature="e#16042#16070#0" expanded="false" />
+            <element signature="e#16219#16220#0" expanded="true" />
+            <element signature="e#16257#16258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/ClientModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="method#connectToServer#0;class#ClientModel#0" expanded="false" />
+            <element signature="method#setupInOutStream#0;class#ClientModel#0" expanded="false" />
+            <element signature="method#setupDataInStream#0;class#ClientModel#0" expanded="false" />
+            <element signature="method#setupDataOutStream#0;class#ClientModel#0" expanded="false" />
+            <element signature="method#sendData#0;class#ClientModel#0" expanded="false" />
+            <element signature="method#receiveData#0;class#ClientModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientView/NameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="67" column="32" lean-forward="false" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding>
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_src/ClientModel/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server_src/ServerController/ServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1512686111185" expanded="true" signature="3985:4160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CS 342 Project 05 - Networked Chat:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CS 342 Project 05 - Networked Chat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
